@@ -19,8 +19,8 @@ public class Main {
 
     public static void main(String[] args) {
         if (args.length < 2) {
-            System.out.println("Usage: java Main <array elements> <target value>");
-            System.out.println("Example: java Main 1 2 3 4 5 5");
+            System.out.println("📘 Usage: java Main <array elements> <target value>");
+            System.out.println("🧪 Example: java Main 1 2 3 4 5 5");
             return;
         }
         int[] arr = new int[args.length - 1];
@@ -29,6 +29,6 @@ public class Main {
         }
         int target = Integer.parseInt(args[args.length - 1]);
         int result = binarySearch(arr, target);
-        System.out.println("Result index: " + result); // Should print the correct index or -1 if not found
+        System.out.println("✅ Result index: " + result); // Should print the correct index or -1 if not found
     }
 }
