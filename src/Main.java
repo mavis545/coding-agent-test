@@ -19,8 +19,7 @@ public class Main {
 
     public static void main(String[] args) {
         if (args.length < 2) {
-            System.out.println("Usage: java Main <array elements> <target value>");
-            System.out.println("Example: java Main 1 2 3 4 5 5");
+            System.out.println("hello");
             return;
         }
         int[] arr = new int[args.length - 1];
